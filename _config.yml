@@ -5,7 +5,7 @@ permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
-body {background-color: #E389B9;}
+
 
 # Layout
 
@@ -13,14 +13,14 @@ show_excerpts: false       # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
-body {background-color: #E389B9;}
+
 
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/kendall.pdf", title: "Resume", icon: home}
+  - {file: "kendall.pdf", title: "Resume", icon: home}
   - {title: "Projects", url: "https://kendallsprojects.com"}
-  - {title: "Blog", file: "/blog.md"}
+  - {title: "Blog", file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "brownk17@vcu.edu"}
